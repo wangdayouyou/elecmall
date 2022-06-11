@@ -1,13 +1,13 @@
-package com.sdxx.service_supplier;
+package com.sdxx.commonutils;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceSupplierApplication {
+public class CommonUtilsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceSupplierApplication.class, args);
+		SpringApplication.run(CommonUtilsApplication.class, args);
 	}
 
 }

@@ -12,10 +12,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>service_purchaser</name>
 	<description>采购端</description>
-	<properties>
-		<java.version>1.8</java.version>
-		<spring-cloud.version>2021.0.3</spring-cloud.version>
-	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

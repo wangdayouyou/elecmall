@@ -1,10 +1,10 @@
-package com.sdxx.serviceadmin;
+package com.sdxx.servicebase;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceAdminApplicationTests {
+class ServiceBaseApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.sdxx.service_base;
+package com.sdxx.supplier;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceBaseApplication {
+public class ServiceSupplierApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceBaseApplication.class, args);
+		SpringApplication.run(ServiceSupplierApplication.class, args);
 	}
 
 }

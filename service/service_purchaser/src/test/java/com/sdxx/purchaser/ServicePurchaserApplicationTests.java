@@ -1,10 +1,10 @@
-package com.sdxx.service_supplier;
+package com.sdxx.purchaser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceSupplierApplicationTests {
+class ServicePurchaserApplicationTests {
 
 	@Test
 	void contextLoads() {

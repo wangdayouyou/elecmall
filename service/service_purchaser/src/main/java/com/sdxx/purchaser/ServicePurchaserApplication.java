@@ -1,13 +1,13 @@
-package com.sdxx.common_utils;
+package com.sdxx.purchaser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CommonUtilsApplication {
+public class ServicePurchaserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CommonUtilsApplication.class, args);
+		SpringApplication.run(ServicePurchaserApplication.class, args);
 	}
 
 }

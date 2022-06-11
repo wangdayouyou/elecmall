@@ -1,4 +1,4 @@
-package com.sdxx.common_utils;
+package com.sdxx.commonutils;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

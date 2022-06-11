@@ -1,13 +1,13 @@
-package com.sdxx.service_purchaser;
+package com.sdxx.servicebase;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServicePurchaserApplication {
+public class ServiceBaseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServicePurchaserApplication.class, args);
+		SpringApplication.run(ServiceBaseApplication.class, args);
 	}
 
 }
