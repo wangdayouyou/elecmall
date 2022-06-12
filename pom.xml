@@ -27,8 +27,10 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
         <cloud-alibaba.version>2021.0.1.0</cloud-alibaba.version>
-<!--        <cloud-alibaba.version>2.2.7.RELEASE</cloud-alibaba.version>-->
         <spring-boot-version>2.6.8</spring-boot-version>
+        <mybatis-plus-boot-starter.version>3.5.2</mybatis-plus-boot-starter.version>
+        <druid.version>1.2.10</druid.version>
+        <mysql-connector.version>8.0.17</mysql-connector.version>
     </properties>
     <dependencyManagement>
         <!-- spring-cloud版本控制-->
@@ -55,6 +57,21 @@
                 <version>${spring-boot-version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus-boot-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
             </dependency>
 
 
