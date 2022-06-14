@@ -26,3 +26,7 @@ spring:
       discovery:
         server-addr: 47.100.208.16:3306:8848
 #配置mapper地址
+
+#logback配置文件地址
+logging:
+  config: logback-dev.xml

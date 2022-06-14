@@ -3,8 +3,6 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/api_gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/foundation/common_utils/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/foundation/service_base/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/foundation/spring_security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service/service_admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service/service_purchaser/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service/service_supplier/src/main/java" charset="UTF-8" />
