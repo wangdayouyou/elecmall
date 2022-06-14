@@ -27,5 +27,7 @@ spring:
     time-zone: GMT+8
 
 #配置mapper地址
+
+#logback配置文件地址
 logging:
   config: logback-dev.xml
