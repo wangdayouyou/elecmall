@@ -13,12 +13,12 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@ApiModel(value = "admin_context对象", description = "")
-public class AdminContext {
+@ApiModel(value = "content对象", description = "")
+public class Content {
 
     @ApiModelProperty(value = "菜单id")
     @TableId(value = "id", type = IdType.AUTO)
-    private long id;
+    private Long id;
 
     @ApiModelProperty(value = "内容标题")
     private String title;
@@ -45,12 +45,12 @@ public class AdminContext {
     private String attachmentName;
 
     @ApiModelProperty(value = "发布人id。和用户表进行关联。")
-    private long ownerId;
+    private Long ownerId;
 
     @ApiModelProperty(value = "0:未删除，1:已删除")
     @TableField
-    private int IsDelete;
+    private Integer IsDelete;
 
     @ApiModelProperty(value = "菜单id。和菜单表进行关联。")
-    private long contextMenuId;
+    private Long contextMenuId;
 }
