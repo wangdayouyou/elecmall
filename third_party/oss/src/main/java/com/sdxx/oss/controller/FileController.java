@@ -1,7 +1,7 @@
 package com.sdxx.oss.controller;
 
-import com.atguigu.commonutils.R;
-import com.atguigu.commonutils.ResponseFile;
+import com.sdxx.commonutils.R;
+import com.sdxx.commonutils.ResponseFile;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Value;

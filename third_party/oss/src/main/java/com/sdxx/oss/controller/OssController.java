@@ -1,7 +1,8 @@
 package com.sdxx.oss.controller;
 
-import com.atguigu.commonutils.R;
-import com.atguigu.oss.service.OssService;
+
+import com.sdxx.commonutils.R;
+import com.sdxx.oss.service.OssService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +26,7 @@ public class OssController {
     //上传头像的方法
     @PostMapping
     @ApiOperation(value = "上传文件")
-    public R uploadOssFile(MultipartFile file,HttpServletRequest request) throws UnsupportedEncodingException {
+    public R uploadOssFile(MultipartFile file, HttpServletRequest request) throws UnsupportedEncodingException {
         //获取上传文件  MultipartFile
         //返回上传到oss的路径
         String url = ossService.uploadFileAvatar(file,request);
