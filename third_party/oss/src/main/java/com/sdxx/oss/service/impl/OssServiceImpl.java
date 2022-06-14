@@ -6,8 +6,9 @@ import com.aliyun.oss.OSSClientBuilder;
 import com.aliyun.oss.OSSException;
 import com.aliyun.oss.model.OSSObject;
 import com.aliyun.oss.model.PutObjectRequest;
-import com.atguigu.oss.service.OssService;
-import com.atguigu.oss.utils.ConstantPropertiesUtils;
+
+import com.sdxx.oss.service.OssService;
+import com.sdxx.oss.utils.ConstantPropertiesUtils;
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

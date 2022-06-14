@@ -1,7 +1,8 @@
 package com.sdxx.oss.controller.front;
 
-import com.atguigu.commonutils.R;
-import com.atguigu.oss.service.OssService;
+
+import com.sdxx.commonutils.R;
+import com.sdxx.oss.service.OssService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
