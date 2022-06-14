@@ -3,8 +3,6 @@ server:
   port: 10000
 #服务名称
 spring:
-  application:
-    name:
     # mysql数据库连接
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -27,8 +25,5 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 47.100.208.16:3306:8848
+
 #配置mapper地址
