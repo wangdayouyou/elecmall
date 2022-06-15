@@ -39,4 +39,9 @@ public class PermissionServiceImpl implements PermissionService {
     public boolean deleteById(Long id) {
         return permissionMapper.deleteById(id) > 0;
     }
+
+    @Override
+    public List<Permission> selectListByUser(String id) {
+        return this.permissionMapper.selectListByUser(id);
+    }
 }

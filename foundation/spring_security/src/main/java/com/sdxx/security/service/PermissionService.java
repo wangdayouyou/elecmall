@@ -45,4 +45,12 @@ public interface PermissionService {
      * @return 是否成功
      */
     boolean deleteById(Long id);
+
+    /**
+     * 通过用户id查询其权限列表
+     *
+     * @param id
+     * @return
+     */
+    List<Permission> selectListByUser(String id);
 }

@@ -1,6 +1,7 @@
 package com.sdxx.security.service;
 
-import com.sdxx.security.entity.User;
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.sdxx.security.entity.ElecUser;
 
 import java.util.List;
 
@@ -9,14 +10,14 @@ import java.util.List;
  *
  * @description user服务接口
  */
-public interface UserService {
+public interface UserService extends IService<ElecUser> {
     /**
      * 通过ID查询单条数据
      *
      * @param id 主键
      * @return 实例对象
      */
-    User queryById(Long id);
+    ElecUser queryById(Long id);
 
     /**
      * 查询多条数据
@@ -25,23 +26,23 @@ public interface UserService {
      * @param limit  查询条数
      * @return 对象列表
      */
-    List<User> queryAllByLimit(int offset, int limit);
+    List<ElecUser> queryAllByLimit(int offset, int limit);
 
     /**
      * 新增数据
      *
-     * @param userAccount 实例对象
+     * @param user 实例对象
      * @return 实例对象
      */
-    User insert(User userAccount);
+    ElecUser insert(ElecUser user);
 
     /**
      * 修改数据
      *
-     * @param userAccount 实例对象
+     * @param user 实例对象
      * @return 实例对象
      */
-    User update(User userAccount);
+    ElecUser update(ElecUser user);
 
     /**
      * 通过主键删除数据
@@ -49,7 +50,7 @@ public interface UserService {
      * @param id 主键
      * @return 是否成功
      */
-    boolean deleteById(User id);
+    boolean deleteById(ElecUser id);
 
     /**
      * 根据用户名查询用户
@@ -57,5 +58,5 @@ public interface UserService {
      * @param userName
      * @return
      */
-    User selectByName(String userName);
+    ElecUser selectByName(String userName);
 }

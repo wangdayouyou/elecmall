@@ -15,4 +15,6 @@ public interface PermissionMapper extends BaseMapper<Permission> {
      * @return 对象列表
      */
     List<Permission> queryAllByLimit(@Param("offset") int offset, @Param("limit") int limit);
+
+    List<Permission> selectListByUser(String id);
 }

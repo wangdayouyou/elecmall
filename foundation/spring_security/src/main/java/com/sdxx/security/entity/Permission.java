@@ -17,7 +17,7 @@ import java.util.Date;
 public class Permission {
     @ApiModelProperty(value = "主键")
     @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+    private String id;
 
     @ApiModelProperty(value = "权限代码")
     private String code;

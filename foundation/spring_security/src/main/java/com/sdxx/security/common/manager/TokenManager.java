@@ -135,6 +135,10 @@ public class TokenManager {
         return tokenInfoVO;
     }
 
+    public void deleteCurrentToken(String accessToken){
+        redisTemplate.delete(accessToken);
+    }
+
     public String createAccessToken(UserInfoInTokenBO user) throws JoseException {
         return JwtUtil.createSignedJwt(user,accessTokenExpireTime);
     }

@@ -14,10 +14,10 @@ import java.util.Date;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @ApiModel(value = "user对象", description = "")
-public class User {
+public class ElecUser {
     @ApiModelProperty(value = "主键")
     @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+    private String id;
 
     @ApiModelProperty(value = "用户名")
     private String userName;
@@ -27,6 +27,9 @@ public class User {
 
     @ApiModelProperty(value = "电话号码")
     private String phoneNumber;
+
+    @ApiModelProperty(value = "邮箱")
+    private String email;
 
     @ApiModelProperty(value = "上次登录时间")
     private Date lastLoginTime;
